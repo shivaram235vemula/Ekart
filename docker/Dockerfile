@@ -1,6 +1,7 @@
 FROM openjdk:8u151-jdk-alpine3.7
 
 EXPOSE 8070
+chmod -R 755 /usr/src
 
 ENV APP_HOME /usr/src/app
 
